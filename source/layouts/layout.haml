@@ -1,0 +1,15 @@
+!!!
+%html
+  %head
+    %title Geospatial Ruby
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
+    = stylesheet_link_tag "normalize", "all"
+  %body
+    = yield
+  = javascript_include_tag  "all"
+  :javascript
+    var slideshow = remark.create({
+    highlightLanguage: 'ruby',
+    highlightStyle: 'tomorrow-night-eighties'
+    });
+

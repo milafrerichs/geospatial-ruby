@@ -1,0 +1,21 @@
+{
+  "name": "Mapping in D3 Presentation",
+  "version": "0.0.1",
+  "authors": [
+    "Mila Frerichs <mila.frerichs@gmail.com>"
+  ],
+  "description": "Presentation for the Mapping in D3 Workshop at FOSSGIS 2015",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "remark":"",
+    "jquery":""
+  }
+}
