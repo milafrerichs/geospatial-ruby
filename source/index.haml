@@ -152,12 +152,12 @@ title: Geospatial Ruby
         map.to_png
       end
     ```
-    <iframe id="simplemap" src="http://192.168.59.103:3001/" width="100%"/>
+    <iframe id="simplemap" src="http://simple-mapping-codeformuenster.gigantic.io/" width="100%"/>
     ???
     slippy: Takes a series of google map tile coordinates and sets the bounds, projection width and height of the simplet_map_t instance accordingly.
     ---
     # Ergebnis
-    ![Tile](http://192.168.59.103:3002/tiles/1/2/3/3.png)
+    ![Tile](http://tile-server-world-codeformuenster.gigantic.io/tiles/1/2/3/3.png)
     ---
     # Ein komplexeres Beispiel
     ## Änderung der Projektion
@@ -182,7 +182,7 @@ title: Geospatial Ruby
     ```
     ---
     # Ergebnis
-    <iframe id="simplemap" src="http://192.168.59.103:3001/projections/1" height="50%" width="100%"/>
+    <iframe id="simplemap" src="http://simple-mapping-codeformuenster.gigantic.io/projections/1" height="50%" width="100%"/>
     ---
     # Änderung von Stilen
     ```ruby
@@ -198,7 +198,7 @@ title: Geospatial Ruby
           m.slippy params[:x].to_i, params[:y].to_i, params[:z].to_i
           m.layer File.join("ne_110m_admin_0_countries_lakes.shp") do |l|
             l.query "select * from 'ne_110m_admin_0_countries_lakes'" do |q|
-              q.styles 
+              q.styles
     *            'stroke' => '#002240',
     *            'weight' => 2,
     *            'fill' => '#f00000'
@@ -210,7 +210,7 @@ title: Geospatial Ruby
     ```
     ---
     # Ergebnis
-    <iframe id="simplemap" src="http://192.168.59.103:3001/projections/2" height="50%" width="100%"/>
+    <iframe id="simplemap" src="http://simple-mapping-codeformuenster.gigantic.io/projections/2" height="50%" width="100%"/>
     ---
     # SimplerTiles
     und noch viel mehr Einstellungsmöglichkeiten
