@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+/* line 1, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/_slides.sass */
+.left-column {
+  color: #777;
+  width: 20%;
+  height: 92%;
+  float: left; }
+  /* line 6, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/_slides.sass */
+  .left-column h2:last-of-type, .left-column h3:last-child {
+    color: #000; }
+
+/* line 9, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/_slides.sass */
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em; }
+
+/* line 14, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/_slides.sass */
+.white {
+  color: #fff; }
+
+/* line 9, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/all.sass */
+body {
+  font-family: "Droid Serif"; }
+
+/* line 12, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/all.sass */
+h1, h2, h3 {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: normal; }
+
+/* line 16, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/all.sass */
+.remark-code, .remark-inline-code {
+  font-family: "Ubuntu Mono"; }
+
+/* line 19, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/all.sass */
+code {
+  -moz-border-radius: 5px;
+  -web-border-radius: 5px;
+  background: #e7e8e2;
+  border-radius: 5px; }
+
+/* line 25, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/all.sass */
+blockquote {
+  -moz-border-radius: 5px;
+  -web-border-radius: 5px;
+  background: #e7e8e2;
+  border-radius: 5px;
+  padding: 1px 5px; }
+
+/* line 32, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/all.sass */
+a {
+  color: #4183c4; }
+
+/* line 35, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/all.sass */
+table {
+  border: 1px solid #666;
+  border-collapse: collapse; }
+  /* line 38, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/all.sass */
+  table th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-: #666666;
+    background-color: #dedede; }
+    /* line 44, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/all.sass */
+    table th td {
+      border-width: 1px;
+      padding: 8px;
+      border-style: solid;
+      border-color: #666666;
+      background-color: #ffffff; }
+  /* line 50, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/all.sass */
+  table tr {
+    border-bottom: 1px solid #666; }
+    /* line 52, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/all.sass */
+    table tr td {
+      padding: 8px;
+      border-left: 1px solid #666; }
+
+/* line 56, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/all.sass */
+.footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.7em; }
+  /* line 60, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/all.sass */
+  .footer .what {
+    opacity: 0.5; }
+  /* line 62, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/all.sass */
+  .footer img {
+    margin: 0 2em 0 0;
+    opacity: 1; }
+
+/* line 65, /Development/work/civicvision/talks/geospatial/talk/source/stylesheets/all.sass */
+code .remark-code-line-highlighted {
+  background-color: rgba(69, 162, 196, 0.5); }
